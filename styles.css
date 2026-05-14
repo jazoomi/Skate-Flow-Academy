@@ -335,7 +335,7 @@ h3 { font-size: 1.25rem; }
 .contact .section-title { color: #fff; }
 .contact-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
 }
 .contact-card {
@@ -366,14 +366,6 @@ a.contact-card:hover {
   font-size: 1.15rem;
   word-break: break-word;
 }
-.contact-card--qr img {
-  width: 100%;
-  max-width: 140px;
-  background: #fff;
-  border-radius: 8px;
-  padding: 4px;
-}
-
 /* ─── Footer ──────────────────────────────────────── */
 .footer {
   text-align: center;
